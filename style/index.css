@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+h1{
+    font-weight: 200;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+h2{
+    font-size: 56px;
+    line-height: 10px;
+    
+}
+span{
+    color: rgb(55, 219, 124);
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+article{
+    position: absolute;
+  top: 30%;
+ left: 55%;
+}
+img{
+    width: 500PX;
+}
+a{
+    color: white;
+    width: 200px;
+  }
+
+ a:hover{
+    color: rgb(55, 219, 124);
+    transition: 0.3s all;
+ }
+ #conta{
+    border: 2px solid rgb(55, 219, 124);
+    padding: 10px;
+    border-radius: 15px;
+ }
+ #conta:hover{ 
+    background-color: rgb(55, 219, 124);
+    color: white;
+
+ }
+ form{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+ }
+ input[type="submit"]{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(51, 202, 114);
+    color: white;
+    font-weight: bold;
+ }
+ input[type="submit"]:hover{
+    cursor: pointer;
+ }
+ input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+ }
+ 
