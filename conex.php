@@ -13,3 +13,4 @@ $conexao = new mysqli($localhost, $user, $senha, $database);
 //      echo "CONEXÃO EFETUADA COM SUCESSO";
 //  }
 ?>
+

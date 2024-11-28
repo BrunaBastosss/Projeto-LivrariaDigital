@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./style/index.css">
 </head>
 <body>
+    
     <header>
         <div id="title">
            <h1>Livraria</h1>
@@ -18,7 +19,7 @@
         <a href="#"><li>Serviços </li></a>
         <a href="#"><li>Contatos </li></a>
         <a href="#"><li>Sobre </li></a>
-        <a href="login.html" id="conta"> <li>Já tem uma conta?</li></a>
+        <a href="login.html" id="conta"> <li>login</li></a>
         </ul>
     </header>
 
@@ -26,12 +27,12 @@
         <aside>
             <h2> <span>Realize agora</span></h2>
             <h2>o seu cadastro!</h2>
-            <p>A leitura é uma atividade essencial para o desenvolvimento <br> pessoal e intelectual. Ela não apenas amplia o conhecimento, mas também estimula a 
-                <span>imaginação</span> , melhora a concentração e <br>enriquece o vocabulário. Ao mergulhar nas páginas de um livro, somos transportados para diferentes mundos e culturas, vivendo <br> experiências únicas e aprendendo lições valiosas.</p>
+            <p>A leitura é uma atividade essencial para o desenvolvimento <br> pessoal e intelectual. Ela não apenas amplia o conhecimento, <br> mas também estimula a 
+                <span>imaginação</span> , melhora a concentração e <br>enriquece o vocabulário. Ao mergulhar nas páginas de um livro, <br> somos transportados para diferentes mundos e culturas, vivendo <br> experiências únicas e aprendendo lições valiosas.</p>
             <form action="post.php" method="post">
             <input type="text" placeholder="Nome" name="nome" id="nome"> 
             <input type="email" placeholder="Email" name="email" id="email">
-            <input type="text" placeholder="Telefone" name="telefone" id="telefone">
+            <input type="text" placeholder="Telefone" name="telefone" id="telefone" oninput="maskTelefone(this)">
             <input type="password" placeholder="Senha" name="senha" id="senha">
             <input type="submit" value="Enviar">
         </form>
@@ -42,6 +43,7 @@
         </article>
        
     </main>
+    <script src="mascara.js"></script>
 </body>
 </html>
 
